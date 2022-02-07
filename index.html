@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Rock</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/metal.png" type="image/x-icon">
+    
+</head>
+<body>
+    <header>
+        <!-- Para crear el código que tenemos debajo nav>ul>li*3>a   -->
+        <nav >
+            <!--Para centrar todo-->
+            <ul class="center">
+                <li><a href="#">Home</a></li>
+                
+                <li><a href="#news">News</a></li>
+                <li><a href="#quotes">Quotes</a></li>
+                <li><a href="#top5">Top5</a></li>
+                <li><a href="#song">Song</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="pages/media.html">Media</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1 class="center">	🎸 Bienvenidos a Mi Mundo de Rock &#129304;</h1>
+        <p>Aquí habrá más cositas...</p>
+
+        
+
+        <!--section>(article>h3+p)*3-->
+
+        <section id="news">
+            <h2>Rock News</h2>
+            <article>
+                <h3>Noticia 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, in. 
+                    Iste iusto nam ullam ipsa officia sed id soluta dolores!
+                </p>
+            </article>
+            <article>
+                <h3>Noticia 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, in. 
+                    Iste iusto nam ullam ipsa officia sed id soluta dolores!
+                </p>
+            </article>
+            <article>
+                <h3>Noticia 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, in. 
+                    Iste iusto nam ullam ipsa officia sed id soluta dolores!
+                </p>
+            </article>
+        </section>
+
+        <section id="quotes">
+            <h2>Famous rock quotes</h2>
+            <article>
+                <h3><a href="http://es.wikipedia.org/wiki/Lemmy_Kilmister">"Lenny Krenitics!!!"</a></h3>
+                <blockquote>"If you think that you are too old to rock 'n roll then you are."</blockquote>
+            
+            </article>
+        </section>
+
+        <section id ="top5">
+            <h2>Weekly Top 5</h2>
+            <ol>
+                <li>Elvis Presley</li>
+                <li>Rooling Stones</li>
+                <li>Acdc</li>
+                <li>Jefferson Airplane</li>
+                <li>U2</li>
+            </ol>
+        </section>
+
+
+        <section id="song">
+            <h2>Most Famous songs</h2>
+            
+                <table id="songs">
+                <tr>
+                <th colspan="3">Los mejores cantantes del momento</th>
+                </tr>
+                <tr>
+                  <th>Name</th>
+                  <th>Author</th>
+                  <th>Year</th>
+                </tr>
+                <tr>
+                  <td>Alfreds Futterkiste</td>
+                  <td>Maria Anders</td>
+                  <td>Germany</td>
+                </tr>
+                <tr>
+                  <td>1900</td>
+                  <td>2400</td>
+                  <td>2000</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+                <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" maxlength="16" placeholder="Ingresa tu nombre:"required>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Ingresa tu Apellidos:" required>
+
+                <input type="radio" id="Glam label" name="fav_language" value="glam label">
+                <label for="html">Glambed d</label>
+
+                <input type="radio" id="Glam label" name="fav_language" value="glam label">
+                <label for="html">Glam label</label>
+
+                <input type="radio" id="Hard Rock" name="fav_language" value="hard rock">
+                <label for="javascript">Hard Rock</label>
+
+                <input type="checkbox"  name="publicidad" value="publicidad">
+                <label for="publi"> Permito el envio de pubicidad a mi email</label>
+
+                <h5>Comentarios:</h5>
+                <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+                <label for="accept"> Acepto las condiciones de uso</label>
+                <input type="checkbox" id="ads" name="ads" value="Car">
+                <label for="ads"> Permito que me manden publicidad</label>
+                <input type="checkbox" id="accept" name="accept" value="">
+
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" required>
+
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+       
+
+    </main>
+
+    <footer>@Copyrigth Victor</footer>
+
+    <!-- Con almoadilla se vuelve hacia arriba de la web-->
+    <div class="top"><a href="#"> &#9757; back &#127928; </a>  </div>
+    
+</body>
+</html>
+
+
+
+
